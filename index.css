@@ -7,7 +7,6 @@
        url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-@media screen and {max-width: 30.0625em} {
 #header {
 	margin-right: 9.375em;
 	margin-left: 9.375em;
@@ -77,10 +76,6 @@ p {
 html {
 	scroll-behavior: smooth;
 	background-color: #fffbf8;
-	min-width: 40em;
-}
-#contact {
-	
 }
 #image2 {
 	margin-left: 28.125em;
@@ -93,5 +88,4 @@ html {
 	margin-left: 31.25em;
 	margin-right: 31.25em;
 	background-color: #fffbf8;
-}
 }
