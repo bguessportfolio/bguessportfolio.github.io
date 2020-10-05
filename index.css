@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+#header {
+	margin-right: 150px;
+	margin-left: 150px;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 17px;
+	background-color: #fde0ca;
+	color: #322f2f;
+}
+#sub-head {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: #322f2f;
+}
+li a {
+	color: #322f2f;
+	padding: 10px 5px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #f0863c;
+	overflow: hidden;
+}
+li a:hover {
+	color: ivory;
+}
+#navbar {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color: #322f2f;
+	list-style-type: none;
+	padding: 0;
+	text-decoration: none;
+	margin-left: 280px;
+	margin-right: 280px;
+}
+ul, li, li a {
+	display: inline-block;
+}
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #322f2f;
+	font-size: 35px;
+	background-color: #fab280;
+	text-align: center;
+	margin-right: 450px;
+	margin-left: 450px;
+}
+#image1 {
+	height: 350px;
+	width: 250px;
+	margin-left: 530px;
+	margin-right: 530px;
+}
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #322f2f;
+	font-size: 17px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+html {
+	scroll-behavior: smooth;
+	background-color: #fffbf8;
+}
+#contact {
+	
+}
+#image2 {
+	margin-left: 450px;
+	margin-right: 450px;
+}
+#contact {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;
+	margin-left: 500px;
+	margin-right: 500px;
+	background-color: #fffbf8;
+}
