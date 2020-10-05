@@ -8,29 +8,29 @@
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 #header {
-	margin-right: 9.375em;
-	margin-left: 9.375em;
+	margin-right: 150px;
+	margin-left: 150px;
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
-	padding-right: 3.75em;
-	padding-left: 3.75em;
-	padding-top: 1.25em;
-	padding-bottom: 1.25em;
-	font-size: 1.0625em;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 17px;
 	background-color: #fde0ca;
 	color: #322f2f;
 }
 #sub-head {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	font-size: 1.25em;
+	font-size: 20px;
 	color: #322f2f;
 }
 li a {
 	color: #322f2f;
-	padding: 0.625em 0.3125em;
+	padding: 10px 5px;
 	text-decoration: none;
-	font-size: 1.25em;
+	font-size: 20px;
 	background-color: #f0863c;
 	overflow: hidden;
 }
@@ -44,8 +44,8 @@ li a:hover {
 	list-style-type: none;
 	padding: 0;
 	text-decoration: none;
-	margin-left: 17em;
-	margin-right: 17em;
+	margin-left: 280px;
+	margin-right: 280px;
 }
 ul, li, li a {
 	display: inline-block;
@@ -53,25 +53,25 @@ ul, li, li a {
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #322f2f;
-	font-size: 2.1875em;
+	font-size: 35px;
 	background-color: #fab280;
 	text-align: center;
-	margin-right: 28.125em;
-	margin-left: 28.125em;
+	margin-right: 450px;
+	margin-left: 450px;
 }
 #image1 {
-	height: 21.875em;
-	width: 15.625em;
-	margin-left: 33.125em;
-	margin-right: 33.125em;
+	height: 350px;
+	width: 250px;
+	margin-left: 530px;
+	margin-right: 530px;
 }
 p {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #322f2f;
-	font-size: 1.0625em;
+	font-size: 17px;
 	text-align: center;
-	margin-left: 12.5em;
-	margin-right: 12.5em;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 html {
 	scroll-behavior: smooth;
@@ -81,14 +81,15 @@ html {
 	
 }
 #image2 {
-	margin-left: 28.125em;
-	margin-right: 28.125em;
+	margin-left: 450px;
+	margin-right: 450px;
 }
 #contact {
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 1.0625em;
-	margin-left: 31.25em;
-	margin-right: 31.25em;
+	font-size: 17px;
+	margin-left: 500px;
+	margin-right: 500px;
 	background-color: #fffbf8;
+
 }
