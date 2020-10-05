@@ -44,8 +44,8 @@ li a:hover {
 	list-style-type: none;
 	padding: 0;
 	text-decoration: none;
-	margin-left: 17.5em;
-	margin-right: 17.5em;
+	margin-left: 17em;
+	margin-right: 17em;
 }
 ul, li, li a {
 	display: inline-block;
