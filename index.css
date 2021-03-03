@@ -8,7 +8,7 @@
        url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 #header {
-	font-size: 17px;
+	font-size: 1.07em;
 	margin-right: 0.1em;
 	margin-left: 0.1em;
 	text-align: center;
@@ -20,14 +20,22 @@
 	background-color: #fde0ca;
 	color: #322f2f;
 }
+#info {
+	font-size: 1.07em;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #322f2f;
+	text-align: center;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
 #sub-head {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.25em;
 	color: #322f2f;
 }
 li a {
-	font-size: 20px;
+	font-size: 1.1em;
 	color: #322f2f;
 	padding: 0.5em 0.25em;
 	text-decoration: none;
@@ -38,7 +46,7 @@ li a:hover {
 	color: ivory;
 }
 #navbar {
-	font-size: 20px;
+	font-size: 1.1em;
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	color: #322f2f;
@@ -52,7 +60,7 @@ ul, li, li a {
 	display: inline-block;
 }
 h2 {
-	font-size: 35px;
+	font-size: 2.2em;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #322f2f;
 	background-color: #fab280;
@@ -61,19 +69,18 @@ h2 {
 	margin-left: 7em;
 }
 #image1 {
-	font-size: 16;
-	height: 21.875em;
-	width: 15.625em;
+	height: 21.9em;
+	width: 15.9em;
 	margin-left: 10em;
 	margin-right: 10em;
 }
 p {
-	font-size: 17px;
+	font-size: 1.07em;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #322f2f;
 	text-align: center;
-	margin-left: 1.5em;
-	margin-right: 1.5em;
+	margin-left: 4em;
+	margin-right: 4em;
 }
 html {
 	scroll-behavior: smooth;
@@ -83,14 +90,15 @@ html {
 	
 }
 #image2 {
-	font-size: 16px;
 	margin-left: 5em;
 	margin-right: 5em;
+	height: 51.25em;
+	width: 40em;
 }
 #contact {
 	text-align: center;
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 17px;
+	font-size: 1.07em;
 	margin-left: 2em;
 	margin-right: 2em;
 	background-color: #fffbf8;
