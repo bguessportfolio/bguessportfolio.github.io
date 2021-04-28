@@ -1,0 +1,95 @@
+GRADIENT BACKGROUND CSS:
+body {
+  background: linear-gradient(to bottom, #e6c6df, #92d8eb, #afddc6, #f9f1de, #f0c7a9, #f7d6d4);
+}
+
+WORKING PARALLAX FOR FINN'S PULL QUOTE
+HTML:
+<div class="parallax"></div>
+
+CSS:
+.parallax {
+	background-image: url("quote1b.png");
+	min-height: 20em;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+FOR TEXT QUOTES:
+.quote1 {
+	font-family: Abril Fatface;
+	font-size: 3.5em;
+	color: black;
+	padding: 0.5em;
+	margin-right: 2em;
+	margin-left: 2em;
+	background-color: #FFCC00;
+	text-align: left;
+}
+<div class="quote1">"I can hope, but my experience is that people are stubborn."</div>
+
+OG QUOTE1 MODS
+ id="quote1"
+ #quote1 {
+	margin-right: 0em;
+	margin-left: 0em;
+	height: 40%;
+	width: 100%;
+}
+
+HOW TO PARALLAX
+ <style>
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div> 
+
+OG header - 
+<div class="container">
+	<img src="capstone-header-background-1.jpg">
+	<div class="header1">Voting While Trans:</div>
+	<div class="header2"><h2>The Hidden Problem of Trans Disenfranchisement</h2></div>
+</div>	
+
+OG header bullshit - 
+.header1 {
+	font-family: 'Abril Fatface';
+	font-size: 425%;
+	color: black;
+	right: 5%;
+	left: 5%;
+	top: 0%;
+	padding-bottom: 5%;
+	z-index: 1;
+	position: absolute;
+}
+.header2 {
+	font-family: 'Open Sans Condensed';
+	font-size: 150%;
+	color: black;
+	right: 5%;
+	left: 5%;
+	top: 48%;
+	padding-bottom: 2%;
+	z-index: 1;
+	position: absolute;
+
+}
+.container {
+	position: relative;
+	text-align: center;
+}
