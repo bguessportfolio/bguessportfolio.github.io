@@ -135,7 +135,7 @@ function () {
       geoData: null,
       height: null,
       postUpdate: null,
-      projection: d3Geo.geoAlbers,
+      projection: d3Geo.geoNaturalEarth1,
       rotate: [0, 0, 0],
       scale: null,
       translate: null,
