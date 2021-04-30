@@ -7,7 +7,7 @@ var simplemaps_usmap_mapdata={
     
     //Label defaults
     label_color: "#002767",
-    hide_labels: "no",
+    hide_labels: "yes",
     border_color: "white",
     state_description: "",
     state_color: "#77bcff",
