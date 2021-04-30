@@ -15,9 +15,9 @@ L.geoJson(statesData).addTo(map);
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>US Population Density</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>'
-			: 'Hover over a state');
+		this._div.innerHTML = '<h4>Trans Disenfranchisement Scores</h4>' +  (props ?
+			'<b>' + props.name + '</b><br />' + props.density + ' of 22'
+			: 'Hover over a state to see its score (ranging from 5-22)');
 	};
 
 	info.addTo(map);
@@ -50,7 +50,7 @@ L.geoJson(statesData).addTo(map);
 		var layer = e.target;
 
 		layer.setStyle({
-			weight: 5,
+			weight: 3,
 			color: '#666',
 			dashArray: '',
 			fillOpacity: 0.7
