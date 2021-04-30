@@ -503,6 +503,8 @@ section {
 #map {
 	width: 60em;
 	height: 40em;
+	margin-right: 20%;
+	margin-left: 20%;
 }
 .info { 
 	padding: 6px 8px; 
