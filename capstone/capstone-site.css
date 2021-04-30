@@ -500,6 +500,10 @@ section {
 	background-color: transparent;
 	color: #dddddd
 }
+#map {
+	margin-left: 30%;
+	margin-right: 30%;
+}
 html {
 	scroll-behavior: smooth;
 }
