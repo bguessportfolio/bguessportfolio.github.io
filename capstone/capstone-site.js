@@ -25,14 +25,13 @@ L.geoJson(statesData).addTo(map);
 
 	// get color depending on population density value
 	function getColor(d) {
-		return d > 1000 ? '#800026' :
-				d > 500  ? '#BD0026' :
-				d > 200  ? '#E31A1C' :
-				d > 100  ? '#FC4E2A' :
-				d > 50   ? '#FD8D3C' :
-				d > 20   ? '#FEB24C' :
-				d > 10   ? '#FED976' :
-							'#FFEDA0';
+		return d > 20 ? '#980043' :
+				d > 18  ? '#dd1c77' :
+				d > 16  ? '#df65b0' :
+				d > 14  ? '#c994c7' :
+				d > 12   ? '#d4b9da' :
+				d > 10   ? '#f1eef6' :
+							'#FFFFFF';
 	}
 
 	function style(feature) {
