@@ -16,7 +16,7 @@ L.geoJson(statesData).addTo(map);
 
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Trans Disenfranchisement Scores</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.density + ' of 22'
+			'<b>' + props.name + '</b><br />' + props.lawtype + props.withid + props.markerchange + props.dlprice + props.sidprice '<b>' + props.totalscore + '</b>' ' of 22'
 			: 'Hover over a state to see its score (ranging from 5-22)');
 	};
 
