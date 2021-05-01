@@ -16,7 +16,7 @@ L.geoJson(statesData).addTo(map);
 
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Trans Disenfranchisement Scores</h4>' +  (props ?
-			'<b>' + props.name + '</b><br />' + props.lawtype + props.withid + props.markerchange + props.dlprice + props.sidprice + props.totalscore + ' of 22'
+			'<b>' + props.name + '</b><br>' + '<b>' + props.law + '</b>' + props.lawtype + '<br>' + '<b>' + props.withid + '</b>' + props.idnum + '<br>' + '<b>' + props.markerchange + '</b>' + props.markerpol + '<br>' + '<b>' + props.dlprice + '</b>' + props.dlnum + '<br>' + '<b>' + props.sidprice + '</b>' + props.sidnum + '<br>' + '<b>' + props.totalscore + '</b>' + ' of 22'
 			: 'Hover over a state to see its score (ranging from 5-22)');
 	};
 
@@ -39,9 +39,9 @@ L.geoJson(statesData).addTo(map);
 			weight: 2,
 			opacity: 1,
 			color: 'white',
-			dashArray: '3',
+			dashArray: '1',
 			fillOpacity: 0.7,
-			fillColor: getColor(feature.properties.density)
+			fillColor: getColor(feature.properties.totalscore)
 		};
 	}
 
@@ -49,7 +49,7 @@ L.geoJson(statesData).addTo(map);
 		var layer = e.target;
 
 		layer.setStyle({
-			weight: 3,
+			weight: 2,
 			color: '#666',
 			dashArray: '',
 			fillOpacity: 0.7
