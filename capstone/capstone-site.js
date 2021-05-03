@@ -94,7 +94,7 @@ L.geoJson(statesData).addTo(map);
 	legend.onAdd = function (map) {
 
 		var div = L.DomUtil.create('div', 'info legend'),
-			grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+			grades = [0, 10, 12, 14, 16, 18, 20, 22],
 			labels = [],
 			from, to;
 
