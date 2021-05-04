@@ -1,3 +1,107 @@
+TABLE/GRADIENT HTML:
+<div class="gradient1"></div>
+ <h4 class="idkhow">Requirements for Gender Marker Changes on Drivers' Licenses</h4>
+  <section class="gradient2"> (this all before the table)
+
+  <div class="gradient3"></div> (after table/accompanying paragraphs)
+
+  FIRST PARAGRAPH ALONGSIDE TABLE HAD ID OF "#TABLEPARAGRAPH"
+
+TABLE HTML CODE:
+<table id="dataviz1">
+	<tr>
+    <th>Easy-to-understand form, no doctor's note required (21)</th>
+    <th>Easy-to-understand form, doctor's note required (13)</th>
+    <th>No form - burdensome requirements (5)</th>
+    <th>Policy unclear or nonexistent (4)</th>
+    <th>Surgery, court order, or amended birth certificate required (8)</th>
+  </tr>
+  <tr>
+    <td><div id="ar1">C</div>Arkansas<div id="ca1">E</div>California</td>
+    <td><div id="ak1">A</div>Alaska</td>
+    <td><div id="az1">D</div>Arizona</td>
+    <td><div id="al1">B</div>Alabama</td>
+    <td><div id="ga1">J</div>Georgia</td>
+  </tr>
+  <tr>
+    <td><div id="co1">F</div>Colorado<div id="ct1">G</div>Connecticut</td>
+    <td><div id="id1">M</div>Idaho</td>
+    <td><div id="fl1">I</div>Florida</td>
+    <td><div id="ms1">Y</div>Mississippi</td>
+    <td><div id="ia1">L</div>Iowa</td>
+  </tr>
+  <tr>
+    <td><div id="dc1">y</div>District of Columbia<div id="hi1">K</div>Hawaii</td>
+    <td><div id="in1">O</div>Indiana</td>
+    <td><div id="ks1">P</div>Kansas</td>
+    <td><div id="mt1">Z</div>Montana</td>
+    <td><div id="ky1">Q</div>Kentucky</td>
+  </tr>
+  <tr>
+    <td><div id="il1">N</div>Illinois<div id="me1">U</div>Maine</td>
+    <td><div id="mo1">X</div>Missouri</td>
+    <td><div id="ut1">r</div>Utah</td>
+    <td><div id="sd1">o</div>South Dakota</td>
+    <td><div id="la1">R</div>Lousiana</td>
+  </tr>
+  <tr>
+    <td><div id="ma1">S</div>Massachusetts<div id="mi1">V</div>Michigan</td>
+    <td><div id="ne1">c</div>Nebraska</td>
+    <td><div id="wi1">v</div>Wisconsin</td>
+    <td></td>
+    <td><div id="ok1">j</div>Oklahoma</td>
+  </tr>
+  <tr>
+    <td><div id="mn1">W</div>Minnesota<div id="nv1">g</div>Nevada</td>
+    <td><div id="nh1">d</div>New Hampshire</td>
+    <td></td>
+    <td></td>
+    <td><div id="sc1">n</div>South Carolina</td>
+  </tr>
+  <tr>
+    <td><div id="nj1">e</div>New Jersey<div id="nm1">f</div>New Mexico</td>
+    <td><div id="ny1">h</div>New York</td>
+    <td></td>
+    <td></td>
+    <td><div id="tn1">p</div>Tennessee</td>
+  </tr>
+  <tr>
+    <td><div id="or1">k</div>Oregon<div id="pa1">l</div>Pennsylvania</td>
+    <td><div id="nc1">a</div>North Carolina</td>
+    <td></td>
+    <td></td>
+    <td><div id="tx1">q</div>Texas</td>
+  </tr>
+  <tr>
+    <td><div id="ri1">m</div>Rhode Island<div id="vt1">t</div>Vermont</td>
+    <td><div id="nd1">b</div>North Dakota</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><div id="va1">s</div>Virginia<div id="wa1">u</div>Washington</td>
+    <td><div id="oh1">i</div>Ohio</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><div id="wv1">w</div>West Virginia</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><div id="wy1">x</div>Wyoming</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 GRADIENT BACKGROUND CSS:
 body {
   background: linear-gradient(to bottom, #e6c6df, #92d8eb, #afddc6, #f9f1de, #f0c7a9, #f7d6d4);

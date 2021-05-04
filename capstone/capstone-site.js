@@ -1,9 +1,12 @@
-function exampleFunction() {
-	alert("trans rights motherfucker!")
-	}
-gsap.to(".logo", {duration: 2, x: 400, backgroundColor: "#560563", borderRadius: "20%", border: "5px solid white", ease: "bounce"});
-var map = L.map('map').setView([37.8, -96], 4);
+gsap.registerPlugin(ScrollTrigger);
+gsap.to("#img2", {
+	scrollTrigger: "#img2",
+	duration: 2, 
+	x: 200, 
+	ease: "expo",
+});
 
+var map = L.map('map').setView([37.8, -96], 4);
 L.geoJson(statesData).addTo(map);
 // control that shows state info on hover
 	var info = L.control();
