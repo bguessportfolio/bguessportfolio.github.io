@@ -35,6 +35,25 @@ gsap.to("#img5", {
 	x: -25, 
 	ease: "power4",
 });
+gsap.to("#img6", {
+	scrollTrigger: {
+	trigger: "#img6",
+	toggleActions: "restart pause resume pause"
+},
+	duration: 1, 
+	x: "55%", 
+	ease: "power4",
+});
+gsap.to("#img7", {
+	scrollTrigger: {
+	trigger: "#img7",
+	toggleActions: "restart pause resume pause"
+},
+	duration: 2, 
+	x: "-50%", 
+	ease: "power4",
+});
+
 
 var map = L.map('map').setView([37.8, -96], 4);
 

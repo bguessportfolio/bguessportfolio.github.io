@@ -167,16 +167,6 @@ p {
 	margin-left: 16%;
 	text-align: center;
 }
-.col-4 {
-	align-content: left;
-	justify-content: left;
-	text-align: left;
-	font-family: Roboto Condensed;
-	background-color: white;
-	color: black;
-	font-size: 1.3em;
-	width: 40%;
-}
 .col-6 {
 	align-content: left;
 	justify-content: left;
@@ -188,6 +178,21 @@ p {
 	width: 40%;
 	margin-left: 10%;
 	margin-right: 5%;
+}
+#idimg {
+	padding-bottom: 1em;
+}
+#idmoney {
+}
+#ind_column {
+	align-content: left;
+	justify-content: left;
+	text-align: left;
+	font-family: Roboto Condensed;
+	background-color: white;
+	color: black;
+	font-size: 1.3em;
+	width: 40%;
 }
 #img2 {
 	height: 7em;
@@ -213,6 +218,17 @@ p {
 	padding-top: 1em;
 	padding-bottom: 0.5%;
 }
+#img6 {
+	width: 90%;
+	height: 90%;
+	size: 20em;
+	margin-left: 10%;
+	margin-right: 10%;
+	z-index: -10
+}
+#img7 {
+	width: 15em;
+}
 .gradient1 {
 	background: linear-gradient(to bottom, #ffffff 2%, #000000, #000000);
 	width: 100%;
@@ -230,19 +246,18 @@ p {
 	width: 100%;
 }
 .gradient3 {
-	background: linear-gradient (to bottom, #000000, #000000, #ffffff);
+	background: linear-gradient(to bottom, #000000 15%, #000000);
 	width: 100%;
 	padding: 0%;
 	margin: 0%;
-	height: 5em;	
+	height: 2em;	
 }
-.parallax {
-	background: linear-gradient(to bottom, #ffffff 15%, #E5DA8A, #E4A09D, #E0ADBE, #9DB5DB, #7890B4, #2B323E, #000000 90%);
-	min-height: 50em;
-	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+.sunrise {
+	background: linear-gradient(to bottom, #000000 15%, #2B323E, #7890B4, #9DB5DB, #E0ADBE, #E4A09D, #ffffff 90%);
+	height: 40em;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 #dataviz1 {
   font-family: Roboto Condensed;
