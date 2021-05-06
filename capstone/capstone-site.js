@@ -5,7 +5,7 @@ gsap.to("#img2", {
 	toggleActions: "restart pause resume pause"
 },
 	duration: 0.5, 
-	y: -20, 
+	x: -25, 
 	ease: "power4",
 });
 gsap.to("#img3", {
@@ -14,7 +14,7 @@ gsap.to("#img3", {
 	toggleActions: "restart pause resume pause"	
 },
 	duration: 1, 
-	y: -20,
+	x: -25,
 	ease: "power4",
 });
 gsap.to("#img4", {
@@ -23,7 +23,7 @@ gsap.to("#img4", {
 	toggleActions: "restart pause resume pause"
 },
 	duration: 1.5, 
-	y: -20, 
+	x: -25, 
 	ease: "power4",
 });
 gsap.to("#img5", {
@@ -32,7 +32,7 @@ gsap.to("#img5", {
 	toggleActions: "restart pause resume pause"
 },
 	duration: 2, 
-	y: -20, 
+	x: -25, 
 	ease: "power4",
 });
 
