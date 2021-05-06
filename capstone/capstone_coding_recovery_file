@@ -1,3 +1,30 @@
+WEIRD PANEL SHIT JS:
+gsap.utils.toArray(".panel").forEach((panel, i) => {
+  ScrollTrigger.create({
+    trigger: panel,
+    start: "top top", 
+    pin: true, 
+    pinSpacing: false 
+  });
+});
+
+GSAP ANIMATION ATTEMPT #1, JS:
+let tween = gsap.fromTo("#img7", {transform:scale:2}, {transform:scale:1, duration: 1}),
+	st = ScrollTrigger.create({
+        trigger: ".trigger",
+        start: "top center",
+        end: "+=500",
+        animation: tween,
+        toggleActions: "restart pause resume pause"
+    }
+		
+);
+console.log(st.animation);
+
+W3 ZOOM ANIMATION CSS:
+.w3-animate-zoom {
+	animation:animatezoom 1s}@keyframes animatezoom{from{transform:scale(2)} to{transform:scale(1)}}
+
 TABLE/GRADIENT HTML:
 <div class="gradient1"></div>
  <h4 class="idkhow">Requirements for Gender Marker Changes on Drivers' Licenses</h4>
