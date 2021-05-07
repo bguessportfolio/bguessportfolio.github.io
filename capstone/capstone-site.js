@@ -143,7 +143,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Trans Voter Ability Scores</h4>' +  (props ?
 			'<b>' + props.name + '</b><br>' + '<b>' + props.law + '</b>' + props.lawtype + '<br>' + '<b>' + props.withid + '</b>' + props.idnum + '<br>' + '<b>' + props.markerchange + '</b>' + props.markerpol + '<br>' + '<b>' + props.dlprice + '</b>' + props.dlnum + '<br>' + '<b>' + props.sidprice + '</b>' + props.sidnum + '<br>' + '<b>' + props.totalscore + '</b>' + ' of 22'
-			: 'Hover over a state to see its score (ranging from 5-22)');
+			: 'Hover over a state to see how easy it is for trans people to vote there (ranging from 5-22)');
 	};
 
 	info.addTo(map);
@@ -212,7 +212,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 		onEachFeature: onEachFeature
 	}).addTo(map);
 
-	map.attributionControl.addAttribution('Population data &copy; <a href="http://census.gov/">US Census Bureau</a>');
+	map.attributionControl.addAttribution('Data Sources: <a href="https://docs.google.com/spreadsheets/d/155FFFx_pHS1Gd1SbtZL9-Trpk55hX6XR2Vpi-iSFmyw/edit?usp=sharing">Data Compiled With Sources</a>');
 
 
 	var legend = L.control({position: 'bottomright'});
