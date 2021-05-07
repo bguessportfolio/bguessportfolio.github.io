@@ -142,7 +142,6 @@ p {
 	margin-left: 16%;
 	text-align: center;
 	background-color: black;
-
 }
 #part3 {
 	background-color: black;
@@ -229,8 +228,8 @@ p {
 }
 #img7 {
 	width: 70%;
-	margin-left: -20%;
-	z-index: -8;
+ 	margin-left: -20%;
+ 	z-index: -8;
 }
 #img8 {
 	scale: 200%;
@@ -247,7 +246,7 @@ p {
 }
 #img10 {
 	scale: 90%;
-	margin: none;
+	margin-right: none;
 	padding: none;
 	width: 40%;
 }
@@ -297,7 +296,7 @@ p {
 	font-size: 1.3em;
 	width: 40%;
 	margin-left: 10%;
-	margin-right: 5%;
+	margin-right: 7%;
 	padding-bottom: 1em;
 }
 .gradient1 {
@@ -325,6 +324,7 @@ p {
 }
 #panel3 {
 	text-align: center;
+	padding-bottom: -150%;
 }
 .sunrise {
 	background: linear-gradient(to bottom, #000000 15%, #2B323E, #7890B4, #9DB5DB, #E0ADBE, #E4A09D, #ffffff 90%);
