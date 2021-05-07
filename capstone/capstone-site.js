@@ -1,5 +1,16 @@
 gsap.registerPlugin(ScrollTrigger);
 
+gsap.utils.toArray('.panel').forEach((panel, i) => {
+  ScrollTrigger.create({
+    trigger: panel,
+    yPercent: -100,
+    start: "center center", 
+    end: "bottom",
+    pin: true, 
+    pinSpacing: "false" 
+  });
+});
+
 gsap.to("#img2", {
 	scrollTrigger: {
 	trigger: "#img2",
@@ -39,14 +50,65 @@ gsap.to("#img5", {
 
 gsap.fromTo('#img7', {scale: 2}, {scale: 1, duration: 0.75,});
 
-let tween = gsap.fromTo('#img7', {scale: 2}, {scale: 1, duration: 0.75,}),
+let tween1 = gsap.fromTo('#img7', {scale: 2}, {scale: 1, duration: 0.75}),
 	st = ScrollTrigger.create({
 		trigger: "#img7",
-		animation: tween,
+		animation: tween1,
 		start: "top center",
-		toggleActions: "restart pause resume pause"
+		toggleActions: "restart pause resume pause",
 	})
 console.log(st.animation);
+
+gsap.to('#img10', {y: -100, duration: 1});
+let tween2 = gsap.to('#img10', {y: '-20%', duration: 1, ease: 'power4'}),
+	st1 = ScrollTrigger.create({
+		trigger: "#img10",
+		animation: tween2,
+		start: "bottom bottom",
+		toggleActions: "restart pause resume pause",
+	})
+console.log(st1.animation);
+
+gsap.to('#img12', {y: -100, duration: 1});
+let tween4 = gsap.to('#img12', {y: '-20%', duration: 0.75, ease: 'power4'}),
+	st3 = ScrollTrigger.create({
+		trigger: "#img12",
+		animation: tween4,
+		start: "bottom bottom",
+		delay: 2,
+		toggleActions: "restart pause resume pause",
+	})
+console.log(st3.animation);
+
+gsap.to('#img13', {y: '-80%', x: '80%', duration: 0.75});
+let tween5 = gsap.to('#img13', {y: -400, x: 420, duration: 0.75, ease: 'power4'}),
+	st4 = ScrollTrigger.create({
+		trigger: "#img12",
+		animation: tween5,
+		start: "bottom bottom",
+		toggleActions: "restart pause resume pause",
+	})
+console.log(st4.animation);
+
+gsap.to('#img14', {y: '-80%', x: '-10', duration: 0.75});
+let tween6 = gsap.to('#img14', {y: -375, x: -10, duration: 0.75, ease: 'power4'}),
+	st5 = ScrollTrigger.create({
+		trigger: "#img12",
+		animation: tween6,
+		start: "bottom bottom",
+		toggleActions: "restart pause resume pause",
+	})
+console.log(st5.animation);
+
+gsap.to('#img11', {y: '-250%', x: '50%', duration: 0.75});
+let tween7 = gsap.to('#img11', {y: '-250%', x: '50%', duration: 0.75, ease: 'power4'}),
+	st6 = ScrollTrigger.create({
+		trigger: "#img12",
+		animation: tween7,
+		start: "bottom bottom",
+		toggleActions: "restart none none none ",
+	})
+console.log(st6.animation);
 
 var map = L.map('map').setView([37.8, -96], 4);
 
