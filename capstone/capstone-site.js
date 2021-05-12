@@ -3,11 +3,11 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray('.panel').forEach((panel, i) => {
   ScrollTrigger.create({
     trigger: panel,
-    yPercent: -100,
+    yPercent: -25,
     start: "center center", 
     end: "bottom",
     pin: true, 
-    pinSpacing: "false" 
+    pinSpacing: "2em" 
   });
 });
 

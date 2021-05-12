@@ -70,8 +70,9 @@ h2 {
 	text-decoration: none;
 }
 #image1 {
-	height: 21.9em;
-	width: 15.9em;
+	height: 25%;
+	width: 25%;
+	scale: 100%;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -80,8 +81,8 @@ p {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #322f2f;
 	text-align: center;
-	margin-left: 4em;
-	margin-right: 4em;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 html {
 	scroll-behavior: smooth;
