@@ -130,13 +130,13 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 	// get color depending on population density value
 	function getColor(d) {
-		return d > 20 ? '#980043' :
-				d > 18  ? '#dd1c77' :
-				d > 16  ? '#df65b0' :
-				d > 14  ? '#c994c7' :
-				d > 12   ? '#d4b9da' :
-				d > 10   ? '#f1eef6' :
-							'#FFFFFF';
+		return d > 20 ? '#f1eef6' :
+				d > 18  ? '#d4b9da' :
+				d > 16  ? '#c994c7' :
+				d > 14  ? '#df65b0' :
+				d > 12   ? '#dd1c77' :
+				d > 10   ? '#980043' :
+							'#87003a';
 	}
 
 	function style(feature) {
@@ -155,7 +155,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 		layer.setStyle({
 			weight: 2,
-			color: '#666',
+			color: '969696',
 			dashArray: '',
 			fillOpacity: 0.7
 		});
