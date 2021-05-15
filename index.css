@@ -69,6 +69,14 @@ h2 {
 	margin-left: 10%;
 	text-decoration: none;
 }
+h3 {
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #322f2f;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+}
 #image1 {
 	height: 25%;
 	width: 25%;

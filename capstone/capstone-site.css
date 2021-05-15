@@ -22,11 +22,9 @@ h3 {
 	font-family: Roboto Condensed;
 	font-size: 1.5em;
 	background-color: white;
-	width: 6.5em;
-	text-align: center;
-	margin-right: 45%;
-	margin-left: 45%;
-
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
 }
 .header1 {
 	background-color: white;
@@ -244,11 +242,11 @@ p {
 	width: 75%;
 }
 #img9 {
-	width: 100%;
-	scale: 125%;
+	width: 125%;
+	scale: 100%;
 	padding-left: 1em;
 	padding-bottom: 4em;
-	transform: rotateY();
+	transform: rotate(180deg);
 }
 #img10 {
 	scale: 90%;
