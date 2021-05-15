@@ -58,63 +58,43 @@ let tween1 = gsap.fromTo('#img7', {scale: 3, autoAlpha: 0}, {scale: 1, duration:
 	})
 console.log(st.animation);
 
-gsap.to('#img9', {y: '2%', x: '5%', duration: 0.75});
-let tween8 = gsap.to('#img9', {y: '2%', x: '5%', duration: 0.75}),
-	st7 = ScrollTrigger.create({
-		trigger: "#img9",
-		animation: tween8,
-		start: "top center",
-		toggleActions: "restart pause resume pause",
-	})
-console.log(st7.animation);
-
-gsap.to('#img10', {y: '-20%', duration: 1});
-let tween2 = gsap.to('#img10', {y: '-20%', duration: 1, ease: 'power4'}),
-	st1 = ScrollTrigger.create({
-		trigger: "#img10",
-		animation: tween2,
-		start: "bottom bottom",
-		toggleActions: "play none none none",
-	})
-console.log(st1.animation);
-
-gsap.to('#img12', {y: '-40%', x: '50%', duration: 1});
-let tween4 = gsap.to('#img12', {y: '-40%', x: '50%', duration: 0.75, ease: 'power4'}),
+gsap.fromTo('#img12', {opacity: 0, x: 0, y: 0}, {opacity: 1, y: '-40%', x: '50%', duration: 0.75});
+let tween4 = gsap.fromTo('#img12', {opacity: 0}, {opacity: 1, y: '-40%', x: '50%', duration: 0.75, ease: 'power4'}),
 	st3 = ScrollTrigger.create({
 		trigger: "#img12",
 		animation: tween4,
-		start: "top center",
+		start: "bottom center",
 		delay: 2,
 		toggleActions: "play none none none",
 	})
 console.log(st3.animation);
 
-gsap.to('#img13', {y: '-30%', x: '-60%', duration: 0.75});
-let tween5 = gsap.to('#img13', {y: '-30%', x: '-60%', duration: 0.75, ease: 'power4'}),
+gsap.fromTo('#img13', {opacity: 0, x: 0, y: 0}, {opacity: 1, y: '-30%', x: '-60%', duration: 0.75});
+let tween5 = gsap.fromTo('#img13', {opacity: 0}, {opacity: 1, y: '-30%', x: '-60%', duration: 0.75, ease: 'power4'}),
 	st4 = ScrollTrigger.create({
 		trigger: "#img12",
 		animation: tween5,
-		start: "bottom bottom",
+		start: "bottom center",
 		toggleActions: "play none none none",
 	})
 console.log(st4.animation);
 
-gsap.to('#img14', {y: '-120%', x: '50%', duration: 0.75});
-let tween6 = gsap.to('#img14', {y: '-120%', x: '50%', duration: 0.75, ease: 'power4'}),
+gsap.fromTo('#img14', {opacity: 0, x: 0, y: 0}, {opacity: 1, y: '-120%', x: '50%', duration: 0.75});
+let tween6 = gsap.fromTo('#img14', {opacity: 0}, {opacity: 1, y: '-120%', x: '50%', duration: 0.75, ease: 'power4'}),
 	st5 = ScrollTrigger.create({
 		trigger: "#img12",
 		animation: tween6,
-		start: "bottom bottom",
+		start: "bottom center",
 		toggleActions: "play none none none",
 	})
 console.log(st5.animation);
 
-gsap.to('#img11', {y: '-125%', x: '-60%', duration: 0.75});
-let tween7 = gsap.to('#img11', {y: '-125%', x: '-60%', duration: 0.75, ease: 'power4'}),
+gsap.fromTo('#img11', {opacity: 0, x: 0, y: 0}, {opacity: 1, y: '-125%', x: '-60%', duration: 0.75});
+let tween7 = gsap.fromTo('#img11', {opacity: 0}, {opacity: 1, y: '-125%', x: '-60%', duration: 0.75, ease: 'power4'}),
 	st6 = ScrollTrigger.create({
 		trigger: "#img12",
 		animation: tween7,
-		start: "bottom bottom",
+		start: "bottom center",
 		toggleActions: "play none none none",
 	})
 console.log(st6.animation);
