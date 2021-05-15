@@ -3,11 +3,10 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.utils.toArray('.panel').forEach((panel, i) => {
   ScrollTrigger.create({
     trigger: panel,
-    yPercent: -25,
     start: "center center", 
     end: "bottom",
     pin: true, 
-    pinSpacing: "2em" 
+    pinSpacing: "false" 
   });
 });
 
@@ -48,14 +47,14 @@ gsap.to("#img5", {
 	ease: "power4",
 });
 
-gsap.fromTo('#img7', {scale: 3, autoAlpha: 0}, {scale: 1, autoAlpha: 1, duration: 1,});
+gsap.fromTo('#img7', {scale: 3, opacity: 0}, {scale: 1, opacity: 1, duration: 1,});
 
 let tween1 = gsap.fromTo('#img7', {scale: 3, autoAlpha: 0}, {scale: 1, duration: 1, autoAlpha: 1, ease: "power4"}),
 	st = ScrollTrigger.create({
 		trigger: "#img6",
 		animation: tween1,
 		start: "top center",
-		toggleActions: "restart pause resume pause",
+		toggleActions: "play none none none",
 	})
 console.log(st.animation);
 
@@ -75,7 +74,7 @@ let tween2 = gsap.to('#img10', {y: '-20%', duration: 1, ease: 'power4'}),
 		trigger: "#img10",
 		animation: tween2,
 		start: "bottom bottom",
-		toggleActions: "restart pause resume pause",
+		toggleActions: "play none none none",
 	})
 console.log(st1.animation);
 
@@ -86,7 +85,7 @@ let tween4 = gsap.to('#img12', {y: '-40%', x: '50%', duration: 0.75, ease: 'powe
 		animation: tween4,
 		start: "top center",
 		delay: 2,
-		toggleActions: "restart pause resume pause",
+		toggleActions: "play none none none",
 	})
 console.log(st3.animation);
 
@@ -96,7 +95,7 @@ let tween5 = gsap.to('#img13', {y: '-30%', x: '-60%', duration: 0.75, ease: 'pow
 		trigger: "#img12",
 		animation: tween5,
 		start: "bottom bottom",
-		toggleActions: "restart pause resume pause",
+		toggleActions: "play none none none",
 	})
 console.log(st4.animation);
 
@@ -106,7 +105,7 @@ let tween6 = gsap.to('#img14', {y: '-120%', x: '50%', duration: 0.75, ease: 'pow
 		trigger: "#img12",
 		animation: tween6,
 		start: "bottom bottom",
-		toggleActions: "restart pause resume pause",
+		toggleActions: "play none none none",
 	})
 console.log(st5.animation);
 
@@ -116,7 +115,7 @@ let tween7 = gsap.to('#img11', {y: '-125%', x: '-60%', duration: 0.75, ease: 'po
 		trigger: "#img12",
 		animation: tween7,
 		start: "bottom bottom",
-		toggleActions: "restart none none none ",
+		toggleActions: "play none none none",
 	})
 console.log(st6.animation);
 

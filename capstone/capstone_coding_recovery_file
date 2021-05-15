@@ -1,3 +1,15 @@
+HIGHLIGHT ATTEMPT #1 (WITH GSPAN AND JS)
+gsap.fromTo('.hbta', {backgroundColor: 'white', x: 0}, {backgroundColor: '#FFCC00', x: 300, duration: 7, ease: 'expo'});
+
+let tween_2 = gsap.fromTo('.hbta', {backgroundColor: 'white', x: 0}, {backgroundColor: '#FFCC00', x: 300, duration: 7, ease: 'expo'}),
+	st_2 = ScrollTrigger.create({
+		trigger: ".hbta",
+		animation: tween_2,
+		start: "bottom bottom",
+		toggleActions: "play none none none",
+	})
+	console.log(st_2.animation);
+
 WEIRD PANEL SHIT JS:
 gsap.utils.toArray(".panel").forEach((panel, i) => {
   ScrollTrigger.create({

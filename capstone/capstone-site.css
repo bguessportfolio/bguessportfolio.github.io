@@ -26,6 +26,15 @@ h3 {
 	margin-right: 30%;
 	margin-left: 30%;
 }
+h4 {
+	font-family: Abril Fatface;
+	font-size: 170%;
+	background-color: white;
+	width: 100%;
+	margin-right: 10%;
+	margin-left: 0%;
+	line-height: 140%;
+}
 .header1 {
 	background-color: white;
 	padding: 0.3em;
@@ -180,8 +189,10 @@ p {
 }
 #idimg {
 	padding-bottom: 1em;
+	margin-bottom: 2em;
 }
 #idmoney {
+	margin-bottom: 4em;
 }
 #ind_column {
 	align-content: left;
@@ -298,10 +309,14 @@ p {
 	background-color: white;
 	color: black;
 	font-size: 1.3em;
-	width: 40%;
+	width: 35%;
 	margin-left: 10%;
-	margin-right: 7%;
+	margin-right: 6%;
 	padding-bottom: 1em;
+}
+.hbta {
+	background-color: #FFCC00;
+	position: relative;
 }
 .gradient1 {
 	background: linear-gradient(to bottom, #ffffff 2%, #000000, #000000);
