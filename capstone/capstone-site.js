@@ -122,7 +122,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 	info.update = function (props) {
 		this._div.innerHTML = '<h5>Trans Voter Ability Scores</h5>' +  (props ?
 			'<b>' + props.name + '</b><br>' + '<b>' + props.law + '</b>' + props.lawtype + '<br>' + '<b>' + props.withid + '</b>' + props.idnum + '<br>' + '<b>' + props.markerchange + '</b>' + props.markerpol + '<br>' + '<b>' + props.dlprice + '</b>' + props.dlnum + '<br>' + '<b>' + props.sidprice + '</b>' + props.sidnum + '<br>' + '<b>' + props.totalscore + '</b>' + ' of 22'
-			: 'Hover over a state to see how easy it is for trans people to vote there (scores range from 5-22)');
+			: 'Hover over a state to see how easy it is for trans people to vote there <br> (scores range from 5-22) <br> * indicates lack of data in one or more areas, which may affect score');
 	};
 
 	info.addTo(map);
