@@ -39,8 +39,30 @@ p {
 	margin-left: 3em;
 	margin-right: 15%;
 }
-#education {
-
+li a {
+	font-size: 1.1em;
+	color: #322f2f;
+	padding: 0.5em 0.25em;
+	text-decoration: none;
+	background-color: #f0863c;
+	overflow: hidden;
+}
+li a:hover {
+	color: ivory;
+}
+#navbar {
+	font-size: 1.1em;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	color: #322f2f;
+	list-style-type: none;
+	padding: 0;
+	text-decoration: none;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+ul, li, li a {
+	display: inline-block;
 }
 hr {
 	margin-left: 3em;
