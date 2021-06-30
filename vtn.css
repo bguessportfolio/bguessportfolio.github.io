@@ -10,7 +10,7 @@ h4 {
 }
 p {
 	font-family: Roboto Condensed, sans-serif;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	margin-left: 20%;
 	margin-right: 20%;
 }
@@ -19,19 +19,25 @@ hr {
 	margin-right: 30%;
 }
 button {
-	background-color: #ea4977;
+	background-color: white;
 	width: 15%;
 	height: 2.7em;
 	font-family: Roboto Condensed, sans-serif;
 	font-size: 120%;
-	border: none;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
 	margin-bottom: 5%;
+}
+button:hover {
+	background-color: black;
+	color: white;
 }
 section {
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%em;
-	line-height: 150%;
+	line-height: 180%;
 }
 #heading2 {
 	color: #ea4977;
