@@ -31,7 +31,6 @@ button {
 	border-color: black;
 	margin-bottom: 5%;
 	margin-top: 1em;
-	text-align: center;
 }
 button:hover {
 	background-color: black;
