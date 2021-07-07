@@ -25,7 +25,7 @@ button {
 	width: 20%;
 	height: 2.7em;
 	font-family: Roboto Condensed, sans-serif;
-	font-size: 120%;
+	font-size: 100%;
 	border: solid;
 	border-width: 1px;
 	border-color: black;
@@ -75,7 +75,7 @@ a:hover {
 	margin-top: 3em;
 }
 #img4 {
-	scale: 50%;
+	scale: 30%;
 	margin-bottom: 0em;
 }
 #nl {
