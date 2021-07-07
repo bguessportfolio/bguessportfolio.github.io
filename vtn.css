@@ -50,6 +50,17 @@ a {
 a:hover {
 	color: black;
 }
+ul, li, li a {
+	display: inline-block;
+}
+li a {
+font-size: 1.1em;
+	color: white;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+	background-color: #ea4977;
+	overflow: hidden;
+}
 #heading2 {
 	color: #ea4977;
 }
@@ -96,6 +107,16 @@ a:hover {
 }
 #card2 {
 	padding-bottom: 3em;
+}
+#contact {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.07em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+li a:hover {
+	background-color: white;
 }
 html {
 	scroll-behavior: smooth;
